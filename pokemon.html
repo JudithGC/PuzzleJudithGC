@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle by JudithGC</title>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="juego.js"> </script>
+    <link rel="stylesheet" href="css/juego.css">
+</head>
+<body id="escribe">
+    <div id="content">
+     <h1 class="respuesta"></h1>
+       <script>
+           var contenido = ordenarArray();
+           crearTabla(2,4,contenido);
+          
+            
+      </script> 
+      
+     <div id="botones">  
+     <button id="boton" onclick="comprobarPieza()"> COMPROBAR </button>
+    
+     <input type="button" value="VOLVER AL MENÚ" onclick="history.back(-1)" />
+    </div>
+    </div>
+         <form>
+     <!-- Botón para volver atrás-->
+        
+     </form>
+</body>
+</html>
